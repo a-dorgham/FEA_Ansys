@@ -150,6 +150,7 @@ This repository presents a comprehensive collection of **45+ Finite Element Anal
 - **Objective:** Verify structural integrity of an aluminum control box cover under external pressure (1.0 MPa).  
 - **Methods:** Static structural analysis using a STEP model to evaluate stress distribution.  
 - **Results:** Assessment of deformation and safety factor.  
+![control_box](http_link)
 
 - **Source:** ANSYS Mechanical Application Introductory Training Course (2015, ANSYS, Inc.)  
 
@@ -159,6 +160,7 @@ This repository presents a comprehensive collection of **45+ Finite Element Anal
 - **Objective:** Analyze the interaction between a spur gear and rack under a 2500 N hand press force.  
 - **Methods:** Plane stress analysis (thickness = 12 mm), evaluating force on the rack or moment on the gear.  
 - **Results:** Contact stress distribution and gear deflection.  
+![gear_rack_analysis](http_link)
 
 - **Source:** ANSYS Mechanical Application Introductory Training Course (2015, ANSYS, Inc.)  
 
@@ -168,6 +170,7 @@ This repository presents a comprehensive collection of **45+ Finite Element Anal
 - **Objective:** Simplify the creation of multiple beam connections between two plates using automation.  
 - **Methods:** Object Generator in ANSYS Mechanical, applying a 1000 N force to the top plate.  
 - **Results:** Efficiency comparison between manual and automated beam connections.  
+![beam_connections](http_link)
 
 - **Source:** ANSYS Mechanical Application Introductory Training Course (2015, ANSYS, Inc.)  
 
@@ -177,6 +180,7 @@ This repository presents a comprehensive collection of **45+ Finite Element Anal
 - **Objective:** Optimize preprocessing time by using named selections and Object Generator.  
 - **Methods:** Automating body sizing and fixed support conditions to improve model setup.  
 - **Results:** Reduction in setup time and improved workflow efficiency.  
+![named_selections](http_link)
 
 - **Source:** ANSYS Mechanical Application Introductory Training Course (2015, ANSYS, Inc.)  
 
@@ -186,6 +190,7 @@ This repository presents a comprehensive collection of **45+ Finite Element Anal
 - **Objective:** Generate an optimized mesh for a symmetric assembly using multiple meshing techniques.  
 - **Methods:** Patch Independent, Patch Conforming, Sweep, Hex Dominant, and Face Meshing methods.  
 - **Results:** Mesh quality evaluation and efficiency comparison.  
+![assembly_meshing](http_link)
 
 - **Source:** ANSYS Mechanical Application Introductory Training Course (2015, ANSYS, Inc.)  
 
@@ -195,6 +200,7 @@ This repository presents a comprehensive collection of **45+ Finite Element Anal
 - **Objective:** Analyze the effects of different meshing sequences on computational accuracy.  
 - **Methods:** Comparing meshing order using various element types.  
 - **Results:** Impact of meshing order on analysis convergence and accuracy.  
+![sequential_meshing](http_link)
 
 - **Source:** ANSYS Mechanical Application Introductory Training Course (2015, ANSYS, Inc.)  
 
@@ -204,6 +210,7 @@ This repository presents a comprehensive collection of **45+ Finite Element Anal
 - **Objective:** Compare meshing efficiency and accuracy using different methods.  
 - **Methods:** Evaluating automatic meshing with slicing against multi-zone meshing without slicing.  
 - **Results:** Element quality, computational time, and solution accuracy.  
+![meshing_methods](http_link)
 
 - **Source:** ANSYS Mechanical Application Introductory Training Course (2015, ANSYS, Inc.)  
 
@@ -217,6 +224,7 @@ This repository presents a comprehensive collection of **45+ Finite Element Anal
   - Multi-zone  
   - Layered tetrahedrons  
 - **Results:** Comparison of mesh refinement, accuracy, and computational cost.  
+![meshing_comparison](http_link)
 
 - **Source:** ANSYS Mechanical Application Introductory Training Course (2015, ANSYS, Inc.)  
 
@@ -226,6 +234,7 @@ This repository presents a comprehensive collection of **45+ Finite Element Anal
 - **Objective:** Improve mesh quality in models with geometry defects using mesh controls.  
 - **Methods:** Implementing pinch and virtual topology to refine meshing.  
 - **Results:** Enhanced element quality and better stress convergence.  
+![mesh_controls](http_link)
 
 - **Source:** ANSYS Mechanical Application Introductory Training Course (2015, ANSYS, Inc.)  
 
@@ -237,6 +246,7 @@ This repository presents a comprehensive collection of **45+ Finite Element Anal
   - Solve without interface treatment (baseline).  
   - Apply contact offset to close the gap and analyze results.  
 - **Results:** Comparison of results with and without interface treatment.  
+![piston_assembly](http_link)
 
 - **Source:** ANSYS Mechanical Application Introductory Training Course (2015, ANSYS, Inc.)  
 
@@ -246,6 +256,7 @@ This repository presents a comprehensive collection of **45+ Finite Element Anal
 - **Objective:** Replace traditional contact definitions with joints in an assembly.  
 - **Methods:** Using ANSYS automatic joint feature and modifying joint definitions before solving.  
 - **Results:** Reduced computational cost and improved analysis efficiency.  
+![joints_connections](http_link)
 
 - **Source:** ANSYS Mechanical Application Introductory Training Course (2015, ANSYS, Inc.)  
 
@@ -257,6 +268,7 @@ This repository presents a comprehensive collection of **45+ Finite Element Anal
   - Simulating vehicle weight using a point mass.  
   - Applying lateral loads using remote forces.  
 - **Results:** Structural response under realistic load conditions.  
+![jack_assembly](http_link)
 
 - **Source:** ANSYS Mechanical Application Introductory Training Course (2015, ANSYS, Inc.)  
 
@@ -266,6 +278,7 @@ This repository presents a comprehensive collection of **45+ Finite Element Anal
 - **Objective:** Simulate hook displacement using constraint equations.  
 - **Methods:** Constructing an equation to relate Y-displacement to X-displacement.  
 - **Results:** Prediction of hook deflection during assembly.  
+![hook_fastener](http_link)
 
 - **Source:** ANSYS Mechanical Application Introductory Training Course (2015, ANSYS, Inc.)  
 
@@ -277,8 +290,10 @@ This repository presents a comprehensive collection of **45+ Finite Element Anal
   - Applying a 100 N bearing load to the pulley.  
   - Checking impeller deflection and material stress limits.  
 - **Results:** Deformation analysis and material safety assessment.  
+![impeller_pump](http_link)
 
 - **Source:** ANSYS Mechanical Application Introductory Training Course (2015, ANSYS, Inc.)  
+
 
 ---
 
@@ -288,6 +303,7 @@ This repository presents a comprehensive collection of **45+ Finite Element Anal
   - Body-to-body bolt simulation.  
   - Applying a remote force (1000 N) at Z = 100 mm.  
 - **Results:** Stress distribution and structural performance evaluation.  
+![flange_mount](http_link)
 
 - **Source:** ANSYS Mechanical Application Introductory Training Course (2015, ANSYS, Inc.)  
 
@@ -299,6 +315,7 @@ This repository presents a comprehensive collection of **45+ Finite Element Anal
   - Modal analysis with all 8 mounting holes constrained.  
   - Second analysis with only 4 corner holes constrained.  
 - **Results:** Comparison of mode shapes and natural frequencies.  
+![frame_vibration](http_link)
 
 - **Source:** ANSYS Mechanical Application Introductory Training Course (2015, ANSYS, Inc.)  
 
@@ -312,6 +329,7 @@ This repository presents a comprehensive collection of **45+ Finite Element Anal
     - 90°C internal temperature.  
     - Convection at 20°C external surface.  
 - **Results:** Thermal expansion and stress comparison.  
+![pump_housing](http_link)
 
 - **Source:** ANSYS Mechanical Application Introductory Training Course (2015, ANSYS, Inc.)  
 
@@ -324,6 +342,7 @@ This repository presents a comprehensive collection of **45+ Finite Element Anal
   - Step 3: Internal pressure applied.  
   - Step 4: Axial force applied.  
 - **Results:** Structural response under multi-step loading.  
+![pipe_clamp](http_link)
 
 - **Source:** ANSYS Mechanical Application Introductory Training Course (2015, ANSYS, Inc.)  
 
