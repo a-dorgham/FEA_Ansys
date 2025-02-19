@@ -3,6 +3,7 @@
 # Finite Element Analysis (FEA) Case Studies
 
 _A collection of advanced FEA simulations in structural analysis, material behavior, and engineering applications._
+
 ![Banner](https://4q848w.am.files.1drv.com/y4m6XoO-5ofUijRf3vPj2x-4dhAGrXkQD_cVUJdiVIthDafWN41v-8fZC3H2irDALlt_CQ2IkE-uSOmnQYRKELEKFrGa0Tdarrgcf6BIo5_QOSAGDBQZuTrqFpNk6WFT2oy-EPrZ4-6ZRQFSCAo_xt9x6CUDXOKCAnsqHTCZZaO5YCrwYWaGbvRRwueqrgsTYWjXYyrp6LkqARmpjvtkBFrpsRwSmzCtl67LQ73GJIAnvs?encodeFailures=1&width=2157&height=1539)
 
 </header>
@@ -17,9 +18,9 @@ This repository presents a comprehensive collection of **Finite Element Analysis
 - Nonlinear and dynamic analyses
 - Custom scripting and automation in FEA
 
-## Featured Examples
+## Featured Case Studies
 
-### 1️⃣ **Beam Bending Analysis**
+### 1️⃣ **Beam Bending Analysis: Shear and Moment Diagrams**
 - **Objective**: Evaluate deflection, shear, and moment in a simply supported I-beam under concentrated and distributed loads. Compare analytical and FEA results.
 - **Methods**: Linear static analysis using line elements. Simply supported boundary condition on one end and roller support on the other.
 - **Results**: Visualization of deflection, shear, and moment diagrams. Close agreement between analytical and FEA results.
@@ -31,7 +32,7 @@ This repository presents a comprehensive collection of **Finite Element Analysis
 
 ---
 
-### 2️⃣ **Wooden Truss Bridge: Boundary Conditions**
+### 2️⃣ **Truss Bridge: Boundary Conditions**
 - **Objective:** Analyze deflections at each joint of a wooden truss bridge under given loading conditions.
 - **Methods:** Finite element analysis using truss and beam elements. Different boundary condition applications, including pinned and roller supports, are explored. Apply pinned support boundary conditions using three methods: simply supported, displacement, and remote displacement.
 - **Results:** Comparison of deflections for different support conditions and validation with theoretical predictions.
@@ -42,7 +43,7 @@ This repository presents a comprehensive collection of **Finite Element Analysis
 
 ---
 
-### 3️⃣ **3D Steel Frame: Beams Alignment**
+### 3️⃣ **Steel Frame: Beams Alignment**
 - **Objective:** Evaluate deformations and stresses in a two-story structural steel frame under uniform loading, with and without a deck on the first floor.
 - **Methods:** 3D beam element analysis using Ansys Workbench. The importance of correct I-beam alignment in DesignModeler or SpaceClaim is highlighted.
 - **Results:** Stress and deformation distributions. Comparison of frame deformations with and without a deck on the first floor.
@@ -58,7 +59,8 @@ This repository presents a comprehensive collection of **Finite Element Analysis
 - **Methods:** 2D plane stress vs. full 3D solid modeling for comparative evaluation.
 - **Results:** 2D and 3D model results are compared, showing that stress differences are more significant than displacement variations.  
 
-  ![steel_wrench_2D](https://ams02pap001files.storage.live.com/y4m_E-4v2KdK3pIjHTT394VD6YbOzAykWS_Xc3YxMJGHLWEz2G9zwpbBhFVwUrvwxQg8ll5lQjLXFH605qBBLCFZ5fYjPB44pm5RxlLajv5dk4nxANZNtWFgT7NvyeFSGg1Xo-_MJ17gf3CoX1qe9m_qvt1bcqhA00B51VhGixrCB0-_CY2U9ObMZzCgs-C2G_4eQcXK0dsv4B-vuFVkguoTHcxYgEZusRtrP-WqAuizuA?encodeFailures=1&width=1674&height=964)  
+  ![steel_wrench_2D](https://ams02pap001files.storage.live.com/y4mBPt5dPmxiOvTQ-oOdgz3oi4lm6aohbEotTu4bwCq_KqJzPRNAd_MmTCfh_GWzdE-dmNUar5mZpT_kM4iNGBVD-7EL9BX9j4KR9fhDbH_WWOg-TrPAcvY1v62m5TciBRefAtuy2KExYXAKjiv9c4vQjIcopteh_aXdzWstbToMSmIINHw2qUPsNEgbyNgv4_xMSkyhjlmxowippoxbpe3sYJK1bG91lbH9HTIKN3jQDQ?encodeFailures=1&width=2304&height=1328)  
+
 
 - **Source:** Chen X, Liu Y. *Finite Element Modeling and Simulation with ANSYS Workbench.* CRC Press; 2018: Case Study 4.5.
 
@@ -100,7 +102,7 @@ This repository presents a comprehensive collection of **Finite Element Analysis
 
 ### 8️⃣ **Acoustic Guitar**
 - **Objective**: Find natural frequencies, vibration modes, and frequency response of an acoustic guitar under harmonic pressure loading.
-- **Methods**: Use 3D solid elements. Apply fixed boundary conditions and harmonic pressure load.
+- **Methods**: Use 3D shell vs solid elements. Apply fixed boundary conditions and harmonic pressure load.
 - **Results**: First ten natural frequencies. Visualization of first five vibration modes and frequency response.
 
   ![concrete_dam](https://ams02pap001files.storage.live.com/y4mGj780WKfkmW_c2_Ir2JlmPNHxR_86AchFhPSoWrod5lmwPJ5aCMMUH3aPKI9F7dKujagyMIBaiDADvEA3oAJk1xTBNgkWaSBZ74WyUKZnNXXsBBZHc3P6Pz-kNXLn3t3Ux7Nw0-w7JaxrOHDcmbd-aB4rGFZkWspdEQwBRaRcpGav2LLMxgSm5nQrvE_Hycz3FcDgtGnZ9GKZ70OZx-Jyau2LassBtY18BimUPrByA0?encodeFailures=1&width=1201&height=1512)  
@@ -122,7 +124,7 @@ This repository presents a comprehensive collection of **Finite Element Analysis
 
 ### 🔟 **Vehicle Aerodynamics**
 - **Objective**: Analyze airflow patterns, pressure, and velocity distributions around a truck at 40 km/hr.
-- **Methods**: Use CFX and Fluent for fluid analysis. Apply non-slip boundary conditions.
+- **Methods**: Use CFX and Fluent for fluid analysis. Apply inlet, outlet, openning/symmetry, and wall non-slip boundary conditions.
 - **Results**: Flow patterns, pressure, and velocity contours. Comparison of CFX and Fluent results.
 
   ![car_suspension](https://ams02pap001files.storage.live.com/y4mSfb904CLWj3wGIM2YDq3SVlFh7mcFTMfOJQDy8kq4a6Wc60wW8ZeaCLWfTOsA8w2bf4L55SGTf7ijuU9Ogwp5wMpErV3WkD2xw9xLjuC0s44wPv4jBZXjelQedE3vQtGEQ43IqxEFMrL2J67PPyXYDdMNxXPi_bcwVxi1Kksnmcz916odOn7s_vj1FMrsR03cjum6rQx3FSr0T63PasmzgevKOlHzf3QpZaIqWGOcbc?encodeFailures=1&width=1201&height=511)  
@@ -178,7 +180,7 @@ This repository presents a comprehensive collection of **Finite Element Analysis
 
 ### 1️⃣5️⃣ **Beam Connections Using Object Generator**  
 - **Objective:** Simplify the creation of multiple beam connections between two plates using automation.  
-- **Methods:** Object Generator in ANSYS Mechanical, applying a 1000 N force to the top plate.  
+- **Methods:** Object Generator in ANSYS Mechanical, applying a 1000 N force to the bottom plate.  
 - **Results:** Efficiency comparison between manual and automated beam connections.  
 
 ![beam_connections](https://ams02pap001files.storage.live.com/y4mZ6y2omXnX9Eo7B0g0yRBuVKtB3U_V6RjiuwXNAIy4YPcgRlKd3DVxWvKQ-kdSJHrf7mZCCzpuWwYkjzDDGk916ivFzhy1t7EEQhEfRXDl6STqqwgpcuMgk2oPupMQc6SaErf26x0LoOCWm_HOJv5p4vMqhjMT_bDElIBqGhyXM_h10nmZFWo-8jLAROekFiCL2kOKpIVe4t0afVOcVrjeHbwYN-n5dBYojAKz9MZ_6Y?encodeFailures=1&width=1201&height=800)
@@ -216,8 +218,6 @@ This repository presents a comprehensive collection of **Finite Element Analysis
   
 ![sequential_meshing](https://ams02pap001files.storage.live.com/y4mu23yGuKFMF-mlLs8dFaAcTjqJ-d1oJ9T6dASCdvReFr0TKiLxFzdJsZP45JSZn-L-zyMlUYGuvmVMFWQPMUdr0dkgLHwvBzIstlzxsvpFIDq6QuKieH-W3nPOIsxvcMVFc-oFtUp24PxTOVIpzqPxwWLCwXJqmdS7yxV4IB-E0siUqEDtqxt-kPvOWPaQE0AZ8-FewKul4E9bu838u090RDing0pjqqQnlbXmCXjejg?encodeFailures=1&width=1035&height=529)
 
-- **Source:** ANSYS Mechanical Application Introductory Training Course (2015, ANSYS, Inc.)  
-
 ---
 
 ### 1️⃣9️⃣ **Meshing Methods: Automatic vs. Multi-Zone**  
@@ -226,8 +226,6 @@ This repository presents a comprehensive collection of **Finite Element Analysis
 - **Results:** Element quality, computational time, and solution accuracy.  
 
 ![meshing_methods](https://ams02pap001files.storage.live.com/y4mY8nUvW_SuzP8qsN37tc7ARQ1VSD4-Q7uZAsKY0PTulIYBOzMeH4A6rSAklOCpra51nP6atZiIAFG8iLpf3SGSFFjVWycX4BBRt_6PU8j481oSVgbv2jXe76Uo82ve2XldnLWlaJh8p_LLujAHS0R5QEEszJM6ESwU5FwRlFMXHAHPbKgRPLKVNk5u_W5Hy-38u1hoQsgiL_hHHLWK3w3YeUBhnfZAQA1CiY4XzrhUwU?encodeFailures=1&width=1201&height=448)
-
-- **Source:** ANSYS Mechanical Application Introductory Training Course (2015, ANSYS, Inc.)  
 
 ---
 
@@ -241,8 +239,6 @@ This repository presents a comprehensive collection of **Finite Element Analysis
 - **Results:** Comparison of mesh refinement, accuracy, and computational cost. 
  
 ![meshing_comparison](https://ams02pap001files.storage.live.com/y4mGpOtO0uz_gg-NHX4P5mpuPaUVkDBjrA147A8uofWWse67wuA3q5i15su9_p7PdQay2Iw8bSn2rUgQ8cqfe_h-vq5zEYkMNsG-Dhv9bJyV8D9aZhGTbrPMSJRdhaHb9vKiOThjlJSDU9CHkNo25Z8_oan8iVDqex3QLzKJf6K-gg0uT0ROqV9VEVAeOdqkTIRTZvD9p9Nlhnl7sdUWLEupl8HpNEtuo_MvkkkDie2AUw?encodeFailures=1&width=1201&height=898)
-
-- **Source:** ANSYS Mechanical Application Introductory Training Course (2015, ANSYS, Inc.)  
 
 ---
 
@@ -426,7 +422,7 @@ This repository presents a comprehensive collection of **Finite Element Analysis
 
 ---
 
-### 3️⃣6️⃣ **Electricity Tower: Buckling Failure Analysis**
+### 3️⃣6️⃣ **Transmission Tower: Buckling Failure Analysis**
 - **Objective:** Evaluate the risk of buckling failure in a transmission tower.
 - **Methods:** Finite element analysis of compression-induced buckling.
 - **Results:** Identification of weak points and safety factor assessment.
@@ -480,76 +476,91 @@ This repository presents a comprehensive collection of **Finite Element Analysis
 
 ---
 
-### 4️⃣2️⃣ **CH3 Racing Car Frame Structure**
+### 4️⃣2️⃣ **Racing Car Frame Structure**
 - **Objective:** Analyze deformation and stresses in a racing car frame.
 - **Methods:** Finite element simulation of impact and loading conditions.
 - **Results:** Identification of weak sections and structural improvements.
 
   ![racing_car_frame](https://ams02pap001files.storage.live.com/y4mXziV05Z6_Z6vBvWHBUGeXtiV_H2cXDtKmf6M37vPSRQyJc3HjvlG-WkaAARML-NUyNGx6IkGcL245HE-lLAVh7F7Dl-EZsPTm2Aq0aDFJipwC9c6s3uRHwnBuli-zZDmzl_Tpv_L-VOsWfhr8viH5Ar7KUGXEPX5wyCqw4pGSXjXc6Zp17aDBo0q_JVMZ8zJsMi13bwMZfPRjMhC53NtZstHtimtZgEBS9MKAvHfVHU?encodeFailures=1&width=1201&height=786)
 
+- **Source:** Dechaumphai and Sucharitpwatskul. *Finite element analysis with ANSYS workbench*. Alpha Science International Limited, 2018, Ch.3.
+
 ---
 
-### 4️⃣3️⃣ **CH4: Motorcycle Chain Wheel**
+### 4️⃣3️⃣ **Motorcycle Chain Wheel**
 - **Objective:** Evaluate stress distribution in a motorcycle chain wheel.
 - **Methods:** Apply torque and chain resistance force to analyze stress.
 - **Results:** Identification of high-stress zones and failure risks.
 
   ![motorcycle_chain_wheel](https://ams02pap001files.storage.live.com/y4mG6Ajz8pZWGySqBbLBfPu25O7WTZwnvnUs0Up0hzW6m4vDPhz6Sj7exYXbnj7-QoEQylfIN2b_T8EWU40Eoqd4SRyOAM4d8IxXLzesHmBoPEhzxuCZ2_WBY5rKh6GLp_94jZCEDQRCfXNlyuw4pDWivMBe9sEHPWk4TBiIc0zdlytJJAI2C4wXoCoU2u4HdCZlIswlqsaGKSBYkzZOIlWvDjggf3q4sMi9NbzupMXteM?encodeFailures=1&width=1201&height=840)
 
+- **Source:** Dechaumphai and Sucharitpwatskul. *Finite element analysis with ANSYS workbench*. Alpha Science International Limited, 2018, Ch.4.
+
 ---
 
-### 4️⃣4️⃣ **CH5: Shelf Angle Bracket**
+### 4️⃣4️⃣ **Shelf Angle Bracket**
 - **Objective:** Assess deformation and stress in a shelf angle bracket.
 - **Methods:** Simulate wall-mounted loading conditions.
 - **Results:** Determination of maximum stress points and deformation.
 
   ![shelf_angle_bracket](https://ams02pap001files.storage.live.com/y4mOOscYw2uev2wERC7rUhqWaj8Rx15nSwfU5T7W5JCag1uWZ2MLYvgjcp6dl9AlP7Y74d_K9SMsvZIIuaOYeAmKySWbhlQdQre7bl0L6gv81rNtSTXvlyRyT_pOxOmtlA1K2rsm9tC1FucgTVegT37Wz_J3FivOnq8DIv7Es4RyHjjFmXuuntzLFi8iQJPyqTnVW-oKFpTcklHGL8scIrHWQ9r5bQ54zRbpmXFpPNwGl4?encodeFailures=1&width=1201&height=798)
 
+- **Source:** Dechaumphai and Sucharitpwatskul. *Finite element analysis with ANSYS workbench*. Alpha Science International Limited, 2018, Ch.5.
+
 ---
 
-### 4️⃣5️⃣ **CH6: Aircraft Structural Component**
+### 4️⃣5️⃣ **Aircraft Structural Component**
 - **Objective:** Analyze an aircraft structural component under offset loading.
 - **Methods:** Apply internal constraints and offset force, assess deflection and stress.
 - **Results:** Structural integrity assessment and design verification.
 
   ![aircraft_component](https://ams02pap001files.storage.live.com/y4muTiDVZYv1oepf7LBrpI0uh8B6UKMuYlhWDSKOHcdW14bJyx0WmG9IJfHC3cUATv9hybwxziWEJHXoAmy8nZ9On5MFHsY06qduZhoB7SiQ-rPCTLVbJg5h9g3KgvH4b-fA-OVnMEccIQRICl6HZxyGlPU57F_nVXOEvcji7-AUCQvXZ2GFd1FEHyUF_7omZLJ4krIVKGQ0mm5OnO1B4w7r511onO-wI6T7BzF7L9XNGs?encodeFailures=1&width=1201&height=714)
 
+- **Source:** Dechaumphai and Sucharitpwatskul. *Finite element analysis with ANSYS workbench*. Alpha Science International Limited, 2018, Ch.6.
+
 ---
 
-### 4️⃣6️⃣ **CH7: Modal Analysis of Passenger Car Frame**
+### 4️⃣6️⃣ **Modal Analysis of Passenger Car Frame**
 - **Objective:** Determine natural frequencies and mode shapes of a passenger car frame.
 - **Methods:** Perform modal analysis using FEA.
 - **Results:** Identification of primary vibration modes.
 
-  ![passenger_car_modal](https://ams02pap001files.storage.live.com/y4mqCIyGO9qXoTEyoCWEs9LlM90m9jfN1n7209_kDiC1CUtVy-8TxUvDv_45-Vh1GgInPmP5s377oyLMNOglunC9yzh_ScxOEcQjNoOqcgRVKmym5CZMQDWArenHhJWJEPSMvAhlErYtN4ml0DW0H7NobRJp1nZOWuCqRAn2X5kkkUdKM1xbJPLv97GxofiJfudlWW_EPTAIPO0ICk-DgU8_cmZA0I9O7g4x9cbTdv18Qg?encodeFailures=1&width=1201&height=1200)
+  ![passenger_car_modal](https://ams02pap001files.storage.live.com/y4mbWiF5h2sdor4fJvjcynCQDA5sBA-3on_Ge2E408MegyMejPP8BJXsQ-2y_tNm5NDwohv_tTZh3FuYlwqFU7VCCSgUZNg-mMdfuZbazvKLw3HEJ-vxhw5OXQ2zvBF0pYaVGz2hutwa7LZxmHM5dDI0Qmw2Nb9IhG2pXj5RMYX_sODzipzBlQvplL-5OflL9JVTzmVyr9Mnp1skPhURzub60se4LWjy6dWMHQ-38-PfEM?encodeFailures=1&width=1193&height=1539)
+
+- **Source:** Dechaumphai and Sucharitpwatskul. *Finite element analysis with ANSYS workbench*. Alpha Science International Limited, 2018, Ch.7.
 
 ---
 
-### 4️⃣7️⃣ **CH8: Buckling of Detergent Bottle**
+### 4️⃣7️⃣ **CBuckling of Detergent Bottle**
 - **Objective:** Investigate the possibility of buckling in a detergent bottle.
 - **Methods:** Analyze compressive loading and hydrostatic pressure effects.
 - **Results:** Assessment of structural stability and design recommendations.
 
-  ![detergent_bottle_buckling](https://ams02pap001files.storage.live.com/y4mbWiF5h2sdor4fJvjcynCQDA5sBA-3on_Ge2E408MegyMejPP8BJXsQ-2y_tNm5NDwohv_tTZh3FuYlwqFU7VCCSgUZNg-mMdfuZbazvKLw3HEJ-vxhw5OXQ2zvBF0pYaVGz2hutwa7LZxmHM5dDI0Qmw2Nb9IhG2pXj5RMYX_sODzipzBlQvplL-5OflL9JVTzmVyr9Mnp1skPhURzub60se4LWjy6dWMHQ-38-PfEM?encodeFailures=1&width=1193&height=1539)
+  ![detergent_bottle_buckling](https://ams02pap001files.storage.live.com/y4mqCIyGO9qXoTEyoCWEs9LlM90m9jfN1n7209_kDiC1CUtVy-8TxUvDv_45-Vh1GgInPmP5s377oyLMNOglunC9yzh_ScxOEcQjNoOqcgRVKmym5CZMQDWArenHhJWJEPSMvAhlErYtN4ml0DW0H7NobRJp1nZOWuCqRAn2X5kkkUdKM1xbJPLv97GxofiJfudlWW_EPTAIPO0ICk-DgU8_cmZA0I9O7g4x9cbTdv18Qg?encodeFailures=1&width=1201&height=1200)
+
+- **Source:** Dechaumphai and Sucharitpwatskul. *Finite element analysis with ANSYS workbench*. Alpha Science International Limited, 2018, Ch.8.
 
 ---
 
-### 4️⃣8️⃣ **CH8: Fatigue and Life Prediction of Piston Rod**
+### 4️⃣8️⃣ **Fatigue and Life Prediction of Piston Rod**
 - **Objective:** Estimate the lifespan of a piston rod under cyclic loading.
 - **Methods:** Finite element fatigue analysis.
 - **Results:** Prediction of failure locations and lifespan.
 
   ![piston_rod_fatigue](https://ams02pap001files.storage.live.com/y4m4YW5GJ1Y4QEnHQKVAC6eOlSqRekUg3I1-AuOgrAhM5_sBTvOTUfr-Yti66uAUGhkwojEVmUSmr-Mc7mThQrCce_901kKHF0UP2h_9AVQwswreibZBQk6wLmLzshBa8Z2hoZVdwuwshd8RELVY4o6bSVjH0cKy-lv78SxDml6-ChcbeRDP6BBwN4E2pKQaycpXreJoo94otrfWu7dTwohwwOFBAYenm9lki3-oOlKB_I?encodeFailures=1&width=1201&height=986)
 
+- **Source:** Dechaumphai and Sucharitpwatskul. *Finite element analysis with ANSYS workbench*. Alpha Science International Limited, 2018, Ch.8.
+
 ---
 
-### 4️⃣9️⃣ **CH9: Thermal Stress in Combustion Engine Cylinder**
+### 4️⃣9️⃣ **Thermal Stress in Combustion Engine Cylinder**
 - **Objective:** Analyze temperature distribution, deformation, and thermal stresses in an engine cylinder.
 - **Methods:** Simulate internal pressure, heat flux, and convection effects.
 - **Results:** Evaluation of thermal stress and deformation.
 
   ![engine_cylinder_thermal](https://ams02pap001files.storage.live.com/y4mWBte6nz5ztZ23Dy7bsByPQX_CfFhLUy44l5jVz44v_TB6E6NsY-70wZ2hCA8d4cudJImIVwaNE2eMs09K8egK0MDyQc-vdKfSQRFkVPg0W86k0FiyCf0ft5UVQOyetmnSepZ_NU-zIrxbqdLiwu_fsMEtwO8FXX7DMuttj2gvpEo_xW_T8ICISYNBr6Wg1PuTZiL_4C-yIkWBQnliTjI1Q54en7oWwWb1BphRN_PK1U?encodeFailures=1&width=2098&height=1539)
 
+- **Source:** Dechaumphai and Sucharitpwatskul. *Finite element analysis with ANSYS workbench*. Alpha Science International Limited, 2018, Ch.9.
 
 ---
 
