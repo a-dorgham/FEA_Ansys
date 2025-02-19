@@ -578,7 +578,7 @@ cd FEA_Ansys
 ```
 
 ### 🔹 **Run the Simulations**
-Each example contains a **README.md** with setup instructions, input files, and result interpretations. Follow the instructions to run the simulations in **Ansys Workbench, APDL, or Python scripting**.
+Each case study contains  input files, and results. Follow the **source** instructions to run the simulations in **Ansys Workbench, APDL, or Python scripting**.
 
 ## Contributions & Feedback
 Contributions are welcome! Feel free to submit **feature requests**, **enhancements**, or **new case studies** via pull requests. If you encounter issues, open a discussion or raise an issue.
@@ -590,7 +590,7 @@ This repository is licensed under the **MIT License**. See [LICENSE](LICENSE) fo
 
 ---
 
-📌 Stay Connected: [LinkedIn](https://linkedin.com/in/your-profile) | [ResearchGate](https://www.researchgate.net/profile/Your-Name)  
-📧 Contact: your.email@example.com
+📌 Stay Connected: [LinkedIn](https://www.linkedin.com/in/abdeldorgham) | [GoogleScholar](https://scholar.google.com/citations?user=EOwjslcAAAAJ&hl=en)  | [ResearchGate](https://www.researchgate.net/profile/Abdel-Dorgham-2) | [ORCiD](https://orcid.org/0000-0001-9119-5111)
+📧 Contact: a.k.y.dorgham@gmail.com
 
 </footer>
