@@ -2,9 +2,8 @@
 
 # Finite Element Analysis (FEA) Case Studies
 
-_Explore a collection of advanced FEA simulations in structural analysis, material behavior, and engineering applications._
-
-![FEA Banner](https://ams02pap001files.storage.live.com/y4mruLOHuGoUCWFosKmHU3_MZZxxqawTj-svVBe2fPh2pxnnKNCS4oaZu404VDXJQV29F6NY59EieQKkFEEC1IJt3hQ9FBqiwdYDcVTWCa_Klh07MEurFNuBf0igvPQ22l2w9587__LP-pUBl1x3x9MbaBRF51dkI0LQe0u__Lr4GGxjIecb6QIHjfgFq6ahIpGYjEd3JMkBZLH-1zZhKivN8sD0iD0DJhpEeG2LPYxptA?encodeFailures=1&width=1792&height=1024)
+_A collection of advanced FEA simulations in structural analysis, material behavior, and engineering applications._
+![Banner](https://4q848w.am.files.1drv.com/y4m6XoO-5ofUijRf3vPj2x-4dhAGrXkQD_cVUJdiVIthDafWN41v-8fZC3H2irDALlt_CQ2IkE-uSOmnQYRKELEKFrGa0Tdarrgcf6BIo5_QOSAGDBQZuTrqFpNk6WFT2oy-EPrZ4-6ZRQFSCAo_xt9x6CUDXOKCAnsqHTCZZaO5YCrwYWaGbvRRwueqrgsTYWjXYyrp6LkqARmpjvtkBFrpsRwSmzCtl67LQ73GJIAnvs?encodeFailures=1&width=2157&height=1539)
 
 </header>
 
@@ -21,9 +20,9 @@ This repository presents a comprehensive collection of **Finite Element Analysis
 ## Featured Examples
 
 ### 1️⃣ **Beam Bending Analysis**
-- **Objective:** Evaluate deflection, shear and moment in a simply supported I-beam.
-- **Methods:** Linear static analysis using line elements.
-- **Results:** Comparison of analytical vs. FEA results with visualization.
+- **Objective**: Evaluate deflection, shear, and moment in a simply supported I-beam under concentrated and distributed loads. Compare analytical and FEA results.
+- **Methods**: Linear static analysis using line elements. Simply supported boundary condition on one end and roller support on the other.
+- **Results**: Visualization of deflection, shear, and moment diagrams. Close agreement between analytical and FEA results.
 
 ![beam_bending](https://ams02pap001files.storage.live.com/y4mUO3SEmFJgjZzp38thw7UT3vUsiVqT-kxz4eoE9Q5fEk2ysS_hDkdaskrYEOfqmQjOejwvRU48mPVFFXVWuq8tfn9ptjDkT1J8dwJk52EHxaphVDN2cjipT5YFv3Co-oMrIymf4VTKLZShV87TdsyeO1SSaexa4VctodsMlxknywAfDe092Kzsjt4wIEA5YQ_3h72THpjyM9FyTgeoAwMy5vIunXDDAs8N_qCdGEquIY?encodeFailures=1&width=1674&height=774)
 
@@ -34,7 +33,7 @@ This repository presents a comprehensive collection of **Finite Element Analysis
 
 ### 2️⃣ **Wooden Truss Bridge: Boundary Conditions**
 - **Objective:** Analyze deflections at each joint of a wooden truss bridge under given loading conditions.
-- **Methods:** Finite element analysis using truss and beam elements. Different boundary condition applications, including pinned and roller supports, are explored.
+- **Methods:** Finite element analysis using truss and beam elements. Different boundary condition applications, including pinned and roller supports, are explored. Apply pinned support boundary conditions using three methods: simply supported, displacement, and remote displacement.
 - **Results:** Comparison of deflections for different support conditions and validation with theoretical predictions.
 
   ![wooden_truss_bridge](https://ams02pap001files.storage.live.com/y4myBedznC8X_BeDFn0pSWKZynpZUkVLJonbFaUHy_V152aPAvCZwKBk5EgzFv2RmOK19nkhnUj79qGBqxFtkzxsayCWX2WDKD_4NQD-KjbUlWlVRrrLBv-tlQXT3KV6jLTgONWQQgvRuDcktIxXKl75ssPh5ViNudvkndiKYKSy5HG3ec63enzNDWpwAId_EZorH_tfRgpIYbjgFlaZgBpQxF_tT8cAWDfEi_1ljitDeY?encodeFailures=1&width=1673&height=699) 
@@ -44,9 +43,9 @@ This repository presents a comprehensive collection of **Finite Element Analysis
 ---
 
 ### 3️⃣ **3D Steel Frame: Beams Alignment**
-- **Objective:** Evaluate deformations and stresses in a two-story structural steel frame under uniform loading.
+- **Objective:** Evaluate deformations and stresses in a two-story structural steel frame under uniform loading, with and without a deck on the first floor.
 - **Methods:** 3D beam element analysis using Ansys Workbench. The importance of correct I-beam alignment in DesignModeler or SpaceClaim is highlighted.
-- **Results:** Comparison of frame deformations with and without a deck on the first floor.  
+- **Results:** Stress and deformation distributions. Comparison of frame deformations with and without a deck on the first floor.  
   ![steel_frame](https://ams02pap001files.storage.live.com/y4mNSL9HjJVvOIQ9rymZ4DMwxhnOMPETb1yHfjHtgX13w1SZzu6Cpq4Dwa9F-XC1IKpm7g04e_PaGEfw0h6d6OTdskydulYCNxPiDUifAbS7vAhuLft0XyT3qzi5QYmmnOnfJ_cBbr9VaQmRybzcRl-OdF5CfnKD4aVI92PD7G16yGGbaBJn71DNFdkEy4rKSiiORdNVrw_Eq5rpJYnuYNY-iq5T5d585wnq4IWf9uu2TA?encodeFailures=1&width=1674&height=1419)  
 
 - **Source:** Chen X, Liu Y. *Finite Element Modeling and Simulation with ANSYS Workbench.* CRC Press; 2018: Case Study 3.6.
@@ -54,7 +53,7 @@ This repository presents a comprehensive collection of **Finite Element Analysis
 ---
 
 ### 4️⃣ **Steel Wrench: 2D Plane Stress vs. 3D Model**
-- **Objective:** Analyze the von Mises stress and deformation of a stainless steel wrench under applied torque.
+- **Objective:** Analyze the deformation and von Mises stress of a stainless steel wrench under applied torque.
 - **Methods:** 2D plane stress vs. full 3D solid modeling for comparative evaluation.
 - **Results:** 2D and 3D model results are compared, showing that stress differences are more significant than displacement variations.  
   ![steel_wrench_2D](https://ams02pap001files.storage.live.com/y4m_E-4v2KdK3pIjHTT394VD6YbOzAykWS_Xc3YxMJGHLWEz2G9zwpbBhFVwUrvwxQg8ll5lQjLXFH605qBBLCFZ5fYjPB44pm5RxlLajv5dk4nxANZNtWFgT7NvyeFSGg1Xo-_MJ17gf3CoX1qe9m_qvt1bcqhA00B51VhGixrCB0-_CY2U9ObMZzCgs-C2G_4eQcXK0dsv4B-vuFVkguoTHcxYgEZusRtrP-WqAuizuA?encodeFailures=1&width=1674&height=964)  
@@ -65,8 +64,8 @@ This repository presents a comprehensive collection of **Finite Element Analysis
 
 ### 5️⃣ **Axisymmetric Garden Fountain**
 - **Objective:** Investigate deformation and von Mises stress in a concrete garden fountain under hydrostatic pressure.
-- **Methods:** Axisymmetric finite element modeling using a 2D slice of the 3D geometry. Adaptive meshing is applied to improve solution accuracy.
-- **Results:** Maximum deformation and stress distribution visualizations.  
+- **Methods:** Axisymmetric finite element modeling using a 2D slice of the 3D geometry. Adaptive meshing is applied to improve solution accuracy and convergence.
+- **Results:** Stress and deformation contours. Validation of axisymmetric approach.  
   ![garden_fountain](https://ams02pap001files.storage.live.com/y4mAjsO91p0cfQI4pVNpBs6KNEgTDrZgObqQWVbnXOSMhejDi9jmqQM9OrEdr_goKdg8boMA9OjgpN7VJo2TpuVTOgiN4XStOYWdWF9lxl6F08t9TVCIs4lomZcvVARCNlIEjQI0V47aj4VbfG9acCijD508EVmkk9Vr05OIXxCp6XyQk_ydLoWRa2qSq5hsSfR3FKFJHyB3ZUGxtwR9C9DutN69i8Zc_ZJYLHpCf8dQuY?encodeFailures=1&width=1201&height=528)  
 
 - **Source:** Chen X, Liu Y. *Finite Element Modeling and Simulation with ANSYS Workbench.* CRC Press; 2018: Case Study 5.8.
