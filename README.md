@@ -45,7 +45,8 @@ This repository presents a comprehensive collection of **Finite Element Analysis
 ### 3️⃣ **3D Steel Frame: Beams Alignment**
 - **Objective:** Evaluate deformations and stresses in a two-story structural steel frame under uniform loading, with and without a deck on the first floor.
 - **Methods:** 3D beam element analysis using Ansys Workbench. The importance of correct I-beam alignment in DesignModeler or SpaceClaim is highlighted.
-- **Results:** Stress and deformation distributions. Comparison of frame deformations with and without a deck on the first floor.  
+- **Results:** Stress and deformation distributions. Comparison of frame deformations with and without a deck on the first floor.
+
   ![steel_frame](https://ams02pap001files.storage.live.com/y4mNSL9HjJVvOIQ9rymZ4DMwxhnOMPETb1yHfjHtgX13w1SZzu6Cpq4Dwa9F-XC1IKpm7g04e_PaGEfw0h6d6OTdskydulYCNxPiDUifAbS7vAhuLft0XyT3qzi5QYmmnOnfJ_cBbr9VaQmRybzcRl-OdF5CfnKD4aVI92PD7G16yGGbaBJn71DNFdkEy4rKSiiORdNVrw_Eq5rpJYnuYNY-iq5T5d585wnq4IWf9uu2TA?encodeFailures=1&width=1674&height=1419)  
 
 - **Source:** Chen X, Liu Y. *Finite Element Modeling and Simulation with ANSYS Workbench.* CRC Press; 2018: Case Study 3.6.
@@ -56,6 +57,7 @@ This repository presents a comprehensive collection of **Finite Element Analysis
 - **Objective:** Analyze the deformation and von Mises stress of a stainless steel wrench under applied torque.
 - **Methods:** 2D plane stress vs. full 3D solid modeling for comparative evaluation.
 - **Results:** 2D and 3D model results are compared, showing that stress differences are more significant than displacement variations.  
+
   ![steel_wrench_2D](https://ams02pap001files.storage.live.com/y4m_E-4v2KdK3pIjHTT394VD6YbOzAykWS_Xc3YxMJGHLWEz2G9zwpbBhFVwUrvwxQg8ll5lQjLXFH605qBBLCFZ5fYjPB44pm5RxlLajv5dk4nxANZNtWFgT7NvyeFSGg1Xo-_MJ17gf3CoX1qe9m_qvt1bcqhA00B51VhGixrCB0-_CY2U9ObMZzCgs-C2G_4eQcXK0dsv4B-vuFVkguoTHcxYgEZusRtrP-WqAuizuA?encodeFailures=1&width=1674&height=964)  
 
 - **Source:** Chen X, Liu Y. *Finite Element Modeling and Simulation with ANSYS Workbench.* CRC Press; 2018: Case Study 4.5.
@@ -66,6 +68,7 @@ This repository presents a comprehensive collection of **Finite Element Analysis
 - **Objective:** Investigate deformation and von Mises stress in a concrete garden fountain under hydrostatic pressure.
 - **Methods:** Axisymmetric finite element modeling using a 2D slice of the 3D geometry. Adaptive meshing is applied to improve solution accuracy and convergence.
 - **Results:** Stress and deformation contours. Validation of axisymmetric approach.  
+
   ![garden_fountain](https://ams02pap001files.storage.live.com/y4mAjsO91p0cfQI4pVNpBs6KNEgTDrZgObqQWVbnXOSMhejDi9jmqQM9OrEdr_goKdg8boMA9OjgpN7VJo2TpuVTOgiN4XStOYWdWF9lxl6F08t9TVCIs4lomZcvVARCNlIEjQI0V47aj4VbfG9acCijD508EVmkk9Vr05OIXxCp6XyQk_ydLoWRa2qSq5hsSfR3FKFJHyB3ZUGxtwR9C9DutN69i8Zc_ZJYLHpCf8dQuY?encodeFailures=1&width=1201&height=528)  
 
 - **Source:** Chen X, Liu Y. *Finite Element Modeling and Simulation with ANSYS Workbench.* CRC Press; 2018: Case Study 5.8.
@@ -76,6 +79,7 @@ This repository presents a comprehensive collection of **Finite Element Analysis
 - **Objective:** Assess structural integrity of a glass vase under hydrostatic pressure.
 - **Methods:** Finite element analysis of a thin-walled glass structure with uniform thickness.
 - **Results:** Maximum deformation and stress distribution under fluid pressure effects.  
+
   ![glass_vase](https://ams02pap001files.storage.live.com/y4m3nQVws1wv7ZXJJlHDykfBUpratAh3NLEg1coQZ6Czj1IerQOVslgKc5IfE3QCrlOKESxtvEHP0Sn4ZiSsbqCS0Bi7fdmEQgHl9Y6DcRLQVOJBOVSL8s0ldrEI0_whVHAudcx02HDs3qYWxk-9IiQ6wn6bHEbr7Mf_Cyy7Rzpi0CpfO4NMDiPxM0tqv2fiwebwrFOz7XSwmjEFs2ggLj7kZ-nhHdhpjP6kWitgozD-wg?encodeFailures=1&width=1201&height=617)  
 
 - **Source:** Chen X, Liu Y. *Finite Element Modeling and Simulation with ANSYS Workbench.* CRC Press; 2018: Case Study 6.5.
@@ -83,60 +87,66 @@ This repository presents a comprehensive collection of **Finite Element Analysis
 
 ---
 
-### 7️⃣ **Rocket Nozzle: Thermal Stress Analysis**  
-- **Objective:** Evaluate the thermal stress distribution in a rocket nozzle subjected to extreme temperature gradients.  
-- **Methods:** Finite element analysis using a thermal-structural coupled approach. The nozzle is modeled with high-temperature materials, and thermal loads are applied.  
-- **Results:** Temperature distribution, resulting stresses, and potential failure points due to thermal expansion.  
+### 7️⃣ **Base Stand Assembly**
+- **Objective**: Determine deformation and von Mises stress distributions in a base stand assembly under given load and boundary conditions.
+- **Methods**: Apply no-separation contact conditions. Align pin with base leg for axisymmetric study.
+- **Results**: Stress and deformation contours. Validation of contact conditions.
+ 
   ![rocket_nozzle](https://ams02pap001files.storage.live.com/y4mX8QYvnMDRQUNET6MAgjevOAmzc7YBVh8ffmZ4vyuFgrigeANDSY4dYtvt7F_VYwwjlY4VNK8nmsMm7nW4F-ArqsgimhWMhnrXnLZiVUL_5to-6WhYStCRSlCbS9jGX5lnuzXmpdNkmB0zekujpeqPIcjZ2GB9yQXkOt_0SHkWUXE2iZqQlmdCN75jqXco37qkmkOg9fRS_mrE4cJzEIe5jlu1Kz6v03f2_Aaa9A9ko8?encodeFailures=1&width=1201&height=464)  
 
 - **Source:** Chen X, Liu Y. *Finite Element Modeling and Simulation with ANSYS Workbench.* CRC Press; 2018: Case Study 7.3.  
 
 ---
 
-### 8️⃣ **Concrete Dam: Hydrostatic Pressure & Structural Stability**  
-- **Objective:** Assess the stability of a concrete gravity dam under hydrostatic pressure and self-weight.  
-- **Methods:** 2D plane strain analysis of the dam structure. Hydrostatic pressure is applied to simulate real-world conditions.  
-- **Results:** Stress distribution along the dam body and foundation, including safety factors against sliding and overturning.  
+### 8️⃣ **Acoustic Guitar**
+- **Objective**: Find natural frequencies, vibration modes, and frequency response of an acoustic guitar under harmonic pressure loading.
+- **Methods**: Use 3D solid elements. Apply fixed boundary conditions and harmonic pressure load.
+- **Results**: First ten natural frequencies. Visualization of first five vibration modes and frequency response.
+
   ![concrete_dam](https://ams02pap001files.storage.live.com/y4mGj780WKfkmW_c2_Ir2JlmPNHxR_86AchFhPSoWrod5lmwPJ5aCMMUH3aPKI9F7dKujagyMIBaiDADvEA3oAJk1xTBNgkWaSBZ74WyUKZnNXXsBBZHc3P6Pz-kNXLn3t3Ux7Nw0-w7JaxrOHDcmbd-aB4rGFZkWspdEQwBRaRcpGav2LLMxgSm5nQrvE_Hycz3FcDgtGnZ9GKZ70OZx-Jyau2LassBtY18BimUPrByA0?encodeFailures=1&width=1201&height=1512)  
 
 - **Source:** Chen X, Liu Y. *Finite Element Modeling and Simulation with ANSYS Workbench.* CRC Press; 2018: Case Study 8.2.  
 
 ---
 
-### 9️⃣ **Turbine Blade: Modal Analysis & Vibration Modes**  
-- **Objective:** Identify natural frequencies and vibration modes of a turbine blade to prevent resonance failures.  
-- **Methods:** Modal analysis using finite element modeling of a 3D blade geometry with realistic boundary conditions.  
-- **Results:** Mode shapes and corresponding natural frequencies, providing insight into structural stability during operation.  
+### 9️⃣ **Heat Sink: Steady and Transient Heat Transfer**
+- **Objective**: Study steady-state and transient thermal responses of an aluminum heat sink under heat flux and forced convection.
+- **Methods**: Apply heat flux and convective boundary conditions. Perform steady-state and transient analyses.
+- **Results**: Temperature distributions and thermal stress responses. Transient thermal behavior over 180 seconds.
+
   ![turbine_blade](https://ams02pap001files.storage.live.com/y4mlRlKhPwsSKx78GE_EEKyB8yp97sKSiUbkVjxoAd62CotMplqFptJC7_Ri_0-T3EBvhXMToRbYM31FITTIuvvpqcN4kACYwwooaJvYILU9mJlFs69i28fvgnM4P_kHfF8eq8fLg5QS8A0vExrVjBbgzZ_hIAbFAr2dOKzrZrxAX3F5shOJ7cOR280UuTuLRd28HQbMg-7qFdLWv7XF5Frq4k4vwMTO7e2hgQgKxaYJPI?encodeFailures=1&width=1201&height=1227)  
 
 - **Source:** Chen X, Liu Y. *Finite Element Modeling and Simulation with ANSYS Workbench.* CRC Press; 2018: Case Study 9.4.  
 
 ---
 
-### 🔟 **Automotive Suspension: Dynamic Load Response**  
-- **Objective:** Evaluate the structural response of a car suspension system under dynamic loading conditions.  
-- **Methods:** Finite element analysis of a multi-link suspension system, incorporating realistic material properties and constraints.  
-- **Results:** Identification of critical stress points and displacements under typical road conditions.  
+### 🔟 **Vehicle Aerodynamics**
+- **Objective**: Analyze airflow patterns, pressure, and velocity distributions around a truck at 40 km/hr.
+- **Methods**: Use CFX and Fluent for fluid analysis. Apply non-slip boundary conditions.
+- **Results**: Flow patterns, pressure, and velocity contours. Comparison of CFX and Fluent results.
+
   ![car_suspension](https://ams02pap001files.storage.live.com/y4mSfb904CLWj3wGIM2YDq3SVlFh7mcFTMfOJQDy8kq4a6Wc60wW8ZeaCLWfTOsA8w2bf4L55SGTf7ijuU9Ogwp5wMpErV3WkD2xw9xLjuC0s44wPv4jBZXjelQedE3vQtGEQ43IqxEFMrL2J67PPyXYDdMNxXPi_bcwVxi1Kksnmcz916odOn7s_vj1FMrsR03cjum6rQx3FSr0T63PasmzgevKOlHzf3QpZaIqWGOcbc?encodeFailures=1&width=1201&height=511)  
 
 - **Source:** Chen X, Liu Y. *Finite Element Modeling and Simulation with ANSYS Workbench.* CRC Press; 2018: Case Study 10.6.  
 
 ---
 
-### 1️⃣1️⃣ **Aircraft Wing: Aeroelastic Analysis**  
-- **Objective:** Study the aeroelastic behavior of an aircraft wing under aerodynamic and structural loads.  
-- **Methods:** Finite element modeling coupled with computational fluid dynamics (CFD) to assess wing deformation and flutter effects.  
-- **Results:** Prediction of wing bending, torsion, and potential instabilities due to aerodynamic forces.  
+### 1️⃣1️⃣ **Optimization Study of L-Shaped Structure**
+- **Objective**: Perform topology and parametric optimization to achieve 75% weight reduction while meeting deformation constraints.
+- **Methods**: Apply downward force and fixed boundary conditions. Use topology and parametric optimization tools.
+- **Results**: Optimized geometry with reduced weight. Validation of deformation constraints.
+  
   ![aircraft_wing](https://ams02pap001files.storage.live.com/y4mKc-vrC2xCEVukjDzbWHF7f7qqxNY4HPzI0dOq1SOti-s9pN0zqFof_LGJRM-MFMHvtMRqSOTpPz72Tvyjk2r14QOpjI3_2J5xE-0AC8X2msOyy2_WwrsAq_oJcOQuM3jDZ-OhQDNe_7mzbhHBz6O70TysmMy0wT56iXHQ53dFQat0Pd2que7TBP1vQWPS5dMqfOJtarL3UoqL1aokcu1-Xlrcwn-pDwn0z5edqM8K4s?encodeFailures=1&width=1201&height=590)  
 
 - **Source:** Chen X, Liu Y. *Finite Element Modeling and Simulation with ANSYS Workbench.* CRC Press; 2018: Case Study 11.3.  
 
 ---
 
-### 1️⃣2️⃣ **Hip Implant: Biomechanical Stress Analysis**  
-- **Objective:** Evaluate the stress distribution in a hip implant under physiological loading conditions.  
-- **Methods:** 3D finite element analysis of the femur and implant interface, considering different materials and load cases.  
-- **Results:** Identification of stress concentration areas and comparison of different implant designs.  
+### 1️⃣2️⃣ **Static, Fatigue, and Buckling Failures**
+- **Objective**: Evaluate static, fatigue, and buckling failures in a dog-bone-shaped specimen under static and cyclic loading.
+- **Methods**: Apply static pressure and cyclic loads. Perform static, fatigue, and buckling analyses.
+- **Results**: Plastic deformation, fatigue life, and buckling mode shapes. Validation of failure criteria.
+
   ![hip_implant](https://ams02pap001files.storage.live.com/y4mYDN8QQ9Vh1FjdyQ1YIqpNdzSuz1QQO6eHpvJ11L__3LkhTsFv-RKdjexHz4cSTOA-0y7bQlaUQrFOGmbmO5bbOQ9GAGXdWHBZANGtxTzkgs2TVd8BlaiKg0sV4nRhrr6vaHvZShTeVyKe7a8KOCI6wyAsRJ91-lAzbTx7kCrMJQOji6Ze4VvSCy5P6J0idVDJEoeLM1BFD16sllmNfppGQOQ1pNWZmPAKt9XMXrORbk?encodeFailures=1&width=1201&height=1270)  
 
 - **Source:** Chen X, Liu Y. *Finite Element Modeling and Simulation with ANSYS Workbench.* CRC Press; 2018: Case Study 12.4.  
@@ -148,6 +158,7 @@ This repository presents a comprehensive collection of **Finite Element Analysis
 - **Objective:** Verify structural integrity of an aluminum control box cover under external pressure (1.0 MPa).  
 - **Methods:** Static structural analysis using a STEP model to evaluate stress distribution.  
 - **Results:** Assessment of deformation and safety factor.  
+
 ![control_box](https://ams02pap001files.storage.live.com/y4mM830oHmztwlS2pp199keO-0ofihN0HklpehDAvMuXH4IZaQrrclZRc7YV1tfe9xxMdIsvwJqy4xbiNieChm7j3egD86fHzn89hq75Poo_YFhbGoRRugI5NPOLrRy4jgroa18pZ9kbptGo1ZwEJscuVOBOoX_HOpum0YHKqydORoxLjjv0ABLTveDUM8XcA0QxPrnYeyTmFi65uL9lOJyXBXt1GpfjRpwPczyUnRoi6g?encodeFailures=1&width=1201&height=562)
 
 - **Source:** ANSYS Mechanical Application Introductory Training Course (2015, ANSYS, Inc.)  
@@ -158,6 +169,7 @@ This repository presents a comprehensive collection of **Finite Element Analysis
 - **Objective:** Analyze the interaction between a spur gear and rack under a 2500 N hand press force.  
 - **Methods:** Plane stress analysis (thickness = 12 mm), evaluating force on the rack or moment on the gear.  
 - **Results:** Contact stress distribution and gear deflection.  
+
 ![gear_rack_analysis](https://ams02pap001files.storage.live.com/y4mulTXqb0YtWAq8rREb_32-_44KM3SBVXAMwJUojRWlnlgZfu7YAccoC_ddx9C5ATdUZ34pqsD5-2jvgkhacd9KxQo_vGPSW73WxzSnGl82Le1l3H-kTOedtbFsjtM4-CF0sAhLRgVF443eRmc62qGX-CuTZe5d7Hm5W2mgqpLiuzveeu_L4L7l9Nbo_jdwGTVITC7xX8-6GQx8rwu4e9z2OlMZjzmzvzaHfa0LxXAeN0?encodeFailures=1&width=1201&height=836)
 
 - **Source:** ANSYS Mechanical Application Introductory Training Course (2015, ANSYS, Inc.)  
@@ -168,6 +180,7 @@ This repository presents a comprehensive collection of **Finite Element Analysis
 - **Objective:** Simplify the creation of multiple beam connections between two plates using automation.  
 - **Methods:** Object Generator in ANSYS Mechanical, applying a 1000 N force to the top plate.  
 - **Results:** Efficiency comparison between manual and automated beam connections.  
+
 ![beam_connections](https://ams02pap001files.storage.live.com/y4mZ6y2omXnX9Eo7B0g0yRBuVKtB3U_V6RjiuwXNAIy4YPcgRlKd3DVxWvKQ-kdSJHrf7mZCCzpuWwYkjzDDGk916ivFzhy1t7EEQhEfRXDl6STqqwgpcuMgk2oPupMQc6SaErf26x0LoOCWm_HOJv5p4vMqhjMT_bDElIBqGhyXM_h10nmZFWo-8jLAROekFiCL2kOKpIVe4t0afVOcVrjeHbwYN-n5dBYojAKz9MZ_6Y?encodeFailures=1&width=1201&height=800)
 
 - **Source:** ANSYS Mechanical Application Introductory Training Course (2015, ANSYS, Inc.)  
@@ -178,6 +191,7 @@ This repository presents a comprehensive collection of **Finite Element Analysis
 - **Objective:** Optimize preprocessing time by using named selections and Object Generator.  
 - **Methods:** Automating body sizing and fixed support conditions to improve model setup.  
 - **Results:** Reduction in setup time and improved workflow efficiency.  
+
 ![named_selections](https://ams02pap001files.storage.live.com/y4mia2ZMniOj-PPMXlmMgYpJucgT7ZDlT79nwdyrftLn30g4Ond7YvxIssJK0HigN0LqkASEGpfhimXj1HoFpENqsUH79TRgFKOPZy5G-ZFPqYp7MUCF6j5cpZmksNrWG-T33n1vpUxK19Yn6xeDza5IaskyHseMGfPk4ZtV52kU3b2P7rZ6o1Yowd4b7bHwbIErAGUbwRmxjmEaR1a4XtOWX_joCNcZ84r3AJg7XuWXzY?encodeFailures=1&width=1201&height=858)
 
 - **Source:** ANSYS Mechanical Application Introductory Training Course (2015, ANSYS, Inc.)  
@@ -187,7 +201,8 @@ This repository presents a comprehensive collection of **Finite Element Analysis
 ### 1️⃣7️⃣ **Assembly Meshing**  
 - **Objective:** Generate an optimized mesh for a symmetric assembly using multiple meshing techniques.  
 - **Methods:** Patch Independent, Patch Conforming, Sweep, Hex Dominant, and Face Meshing methods.  
-- **Results:** Mesh quality evaluation and efficiency comparison.  
+- **Results:** Mesh quality evaluation and efficiency comparison. 
+ 
 ![assembly_meshing](https://ams02pap001files.storage.live.com/y4mPvsj0egNykjT8DALDQO2_VYk37LoMwNZpmZn7DrIepLynTbr1hPJ54lxFwhAzlpTKJ4vzh6iGBz3syzJMhsrdvj8u-Ny2K0wGNF1dZJA3-qwB1FpWEQpVpr7k3JEB5UiPV7HSLyLuwIlODXuqrHqKfMqDcGq4_Ifn0uW2OBH5XwC1RzLfPftUbvxOScsdkvDzCHHVz31YT1ROO_T5Cq0NWOo0Zx-GhddpC08j2QtM-s?encodeFailures=1&width=1201&height=596)
 
 - **Source:** ANSYS Mechanical Application Introductory Training Course (2015, ANSYS, Inc.)  
@@ -197,7 +212,8 @@ This repository presents a comprehensive collection of **Finite Element Analysis
 ### 1️⃣8️⃣ **Sequential Meshing**  
 - **Objective:** Analyze the effects of different meshing sequences on computational accuracy.  
 - **Methods:** Comparing meshing order using various element types.  
-- **Results:** Impact of meshing order on analysis convergence and accuracy.  
+- **Results:** Impact of meshing order on analysis convergence and accuracy.
+  
 ![sequential_meshing](https://ams02pap001files.storage.live.com/y4mu23yGuKFMF-mlLs8dFaAcTjqJ-d1oJ9T6dASCdvReFr0TKiLxFzdJsZP45JSZn-L-zyMlUYGuvmVMFWQPMUdr0dkgLHwvBzIstlzxsvpFIDq6QuKieH-W3nPOIsxvcMVFc-oFtUp24PxTOVIpzqPxwWLCwXJqmdS7yxV4IB-E0siUqEDtqxt-kPvOWPaQE0AZ8-FewKul4E9bu838u090RDing0pjqqQnlbXmCXjejg?encodeFailures=1&width=1035&height=529)
 
 - **Source:** ANSYS Mechanical Application Introductory Training Course (2015, ANSYS, Inc.)  
@@ -208,6 +224,7 @@ This repository presents a comprehensive collection of **Finite Element Analysis
 - **Objective:** Compare meshing efficiency and accuracy using different methods.  
 - **Methods:** Evaluating automatic meshing with slicing against multi-zone meshing without slicing.  
 - **Results:** Element quality, computational time, and solution accuracy.  
+
 ![meshing_methods](https://ams02pap001files.storage.live.com/y4mY8nUvW_SuzP8qsN37tc7ARQ1VSD4-Q7uZAsKY0PTulIYBOzMeH4A6rSAklOCpra51nP6atZiIAFG8iLpf3SGSFFjVWycX4BBRt_6PU8j481oSVgbv2jXe76Uo82ve2XldnLWlaJh8p_LLujAHS0R5QEEszJM6ESwU5FwRlFMXHAHPbKgRPLKVNk5u_W5Hy-38u1hoQsgiL_hHHLWK3w3YeUBhnfZAQA1CiY4XzrhUwU?encodeFailures=1&width=1201&height=448)
 
 - **Source:** ANSYS Mechanical Application Introductory Training Course (2015, ANSYS, Inc.)  
@@ -221,7 +238,8 @@ This repository presents a comprehensive collection of **Finite Element Analysis
   - Sweep with inflation  
   - Multi-zone  
   - Layered tetrahedrons  
-- **Results:** Comparison of mesh refinement, accuracy, and computational cost.  
+- **Results:** Comparison of mesh refinement, accuracy, and computational cost. 
+ 
 ![meshing_comparison](https://ams02pap001files.storage.live.com/y4mGpOtO0uz_gg-NHX4P5mpuPaUVkDBjrA147A8uofWWse67wuA3q5i15su9_p7PdQay2Iw8bSn2rUgQ8cqfe_h-vq5zEYkMNsG-Dhv9bJyV8D9aZhGTbrPMSJRdhaHb9vKiOThjlJSDU9CHkNo25Z8_oan8iVDqex3QLzKJf6K-gg0uT0ROqV9VEVAeOdqkTIRTZvD9p9Nlhnl7sdUWLEupl8HpNEtuo_MvkkkDie2AUw?encodeFailures=1&width=1201&height=898)
 
 - **Source:** ANSYS Mechanical Application Introductory Training Course (2015, ANSYS, Inc.)  
@@ -232,6 +250,7 @@ This repository presents a comprehensive collection of **Finite Element Analysis
 - **Objective:** Improve mesh quality in models with geometry defects using mesh controls.  
 - **Methods:** Implementing pinch and virtual topology to refine meshing.  
 - **Results:** Enhanced element quality and better stress convergence.  
+
 ![mesh_controls](https://ams02pap001files.storage.live.com/y4m59ANIrp9Ypht5TZNYtktjzK1XsMeZAZMIpPm8oP0-ZUPTorva1yx6lXu1gt2KXykj4udQQfeTsZsejFINvN-tb8NRsjCbF4LkoHv3Oy7f7rzO6VUcuLoJIdK5yT7k3E5jQBBp0_C0Q0BX2u_Jvf76IMr-HIFVZqwaHpVGjWZyBzHMSGkOrM2TugNjLBIJkGHXeSIEkAg0gh8SbjG60C3n_K9B6vlh3cgCGTi51t2WmQ?encodeFailures=1&width=1201&height=484)
 
 - **Source:** ANSYS Mechanical Application Introductory Training Course (2015, ANSYS, Inc.)  
@@ -243,7 +262,8 @@ This repository presents a comprehensive collection of **Finite Element Analysis
 - **Methods:**  
   - Solve without interface treatment (baseline).  
   - Apply contact offset to close the gap and analyze results.  
-- **Results:** Comparison of results with and without interface treatment.  
+- **Results:** Comparison of results with and without interface treatment. 
+ 
 ![piston_assembly](https://ams02pap001files.storage.live.com/y4m2VrPLtiLTosv32KSIcs-K0O12Y0x5oNH_R5bSzbhUXiDbxxZPMZm1BnLtCjFUE-bTEWt6w5qkLkxVTIvcfSLvMP6pyAn6uMTG1QuvLrYJmTEGqslBO3C75-RKzTb0nEtGrcFRZYOCnWSNKvMH68jxFcRVSBNL5Gvv1uMimMULFdyyaAJodz_BxxFze3HiWbLdy_RKSPQqAFAa5eLYlU9emdvdMSGzh7hSIrmSFS8mhs?encodeFailures=1&width=1201&height=343)
 
 - **Source:** ANSYS Mechanical Application Introductory Training Course (2015, ANSYS, Inc.)  
@@ -254,6 +274,7 @@ This repository presents a comprehensive collection of **Finite Element Analysis
 - **Objective:** Replace traditional contact definitions with joints in an assembly.  
 - **Methods:** Using ANSYS automatic joint feature and modifying joint definitions before solving.  
 - **Results:** Reduced computational cost and improved analysis efficiency.  
+
 ![joints_connections](https://ams02pap001files.storage.live.com/y4mT6qg0c1yKww1Zpmb-fIXy36x9PfU7SKpkokW4wEC2N9IfudxN7pl4oujnTXfDxWql5T7IenfFJHJ4Zfq51qqF4BlzffhP4j9Sa1L2YfFEQq6FuVcX6qaHHKrlAL-zirSMIKsdvk1ektWt8BJyeHMZxN8WuhivOd7Bcdby3FO-dKVqsKYgGzNzKwHorGjQRKgxTrjnfsOxfTDZJlz8TLP4bN9TWcHvmXiaxgDw3qAevI?encodeFailures=1&width=1201&height=719)
 
 - **Source:** ANSYS Mechanical Application Introductory Training Course (2015, ANSYS, Inc.)  
@@ -266,6 +287,7 @@ This repository presents a comprehensive collection of **Finite Element Analysis
   - Simulating vehicle weight using a point mass.  
   - Applying lateral loads using remote forces.  
 - **Results:** Structural response under realistic load conditions.  
+
 ![jack_assembly](https://ams02pap001files.storage.live.com/y4m8No9PM8ithG6kRntrIPdH3R03p0bQBawF3lCWN91PZXGM1qHeov6vx_3WOdp9nTFRQ1Ta0tj4b755GUv9ra-jbPaGmNKGbRAEoLZJSjzrRO-gIkqmCmRFgkPuY9HvXeqvL4COAoluadRAZCcjM92Pid4nHG9WY2FgD_gSjweCnhGZOOrXTRO4zjaMUgFT_zciFnCM830gvhqboW_zY0MTZ7XItXahTGyuEQYU-fsyfY?encodeFailures=1&width=1201&height=693)
 
 - **Source:** ANSYS Mechanical Application Introductory Training Course (2015, ANSYS, Inc.)  
@@ -276,6 +298,7 @@ This repository presents a comprehensive collection of **Finite Element Analysis
 - **Objective:** Simulate hook displacement using constraint equations.  
 - **Methods:** Constructing an equation to relate Y-displacement to X-displacement.  
 - **Results:** Prediction of hook deflection during assembly.  
+
 ![hook_fastener](https://ams02pap001files.storage.live.com/y4mPH468_8u9IvSZEhSLt3pCqA_YxYqVX5zFHpgEDQGGGurOqkoOpjbe3766QfluhoW8w-L1QaTGKmPFiZev7NFw5YXd908W8zyH23X5Hw8qS9M7e7FxBtU-u3WBfeSIHQYmC1GpdY2bu6a79Yasav-cbQY3T-2pKuKTL5NvBjobkOS4wKIWtmDeYWlcOv_thulvyqUEP4K-1-GJPHHf7XriioW8OWpV5Vng_46gUl3tzE?encodeFailures=1&width=1201&height=534)
 
 - **Source:** ANSYS Mechanical Application Introductory Training Course (2015, ANSYS, Inc.)  
@@ -288,6 +311,7 @@ This repository presents a comprehensive collection of **Finite Element Analysis
   - Applying a 100 N bearing load to the pulley.  
   - Checking impeller deflection and material stress limits.  
 - **Results:** Deformation analysis and material safety assessment.  
+
 ![impeller_pump](https://ams02pap001files.storage.live.com/y4mzEfp9TJxAxKclEI-HVSYRn1B-JvaBoL_9Xrn0i0MLM02_3ZpiTkn16tevUnPnLzWwnMH3Q8DYjlBHli6K753RV3AOl9G0kz12BJMYCMOAzQBLfPBISJpOPG499-pnO_yH9ZqdFLRIQD8okXuSVKZK2mfD-9-B4IaxsD8A4-tCWsXax0ea7ppBkrHA5p_07uhX4rozoBB9_t6KT_-8GIrykqRWWZM-vsWpt1Re8IgdlA?encodeFailures=1&width=1201&height=350)
 
 - **Source:** ANSYS Mechanical Application Introductory Training Course (2015, ANSYS, Inc.)  
@@ -301,6 +325,7 @@ This repository presents a comprehensive collection of **Finite Element Analysis
   - Body-to-body bolt simulation.  
   - Applying a remote force (1000 N) at Z = 100 mm.  
 - **Results:** Stress distribution and structural performance evaluation.  
+
 ![flange_mount](https://ams02pap001files.storage.live.com/y4mWzDHVY80U6mqdtWy_o5PPR-kx3laNw7SJ267LaXC9R_hpCqFnWMoW24hr8Hg3ISAjfsHKrtVH3o5ckG-zu4faQlh1ClFQJdPjhRs8tyPltrHv-zWi4x_2o0oS7jwvYsrSSllip1xRwTWXidoBp8gxGvFFj5wY_f46AhtmN9XNrAgcok2KY5bP71mDk4tSrJ3Dy0MZ8EGp7FPK_hBNg0OWMibmZlroTx_Wc4tleebU2Q?encodeFailures=1&width=1201&height=696)
 
 - **Source:** ANSYS Mechanical Application Introductory Training Course (2015, ANSYS, Inc.)  
@@ -313,6 +338,7 @@ This repository presents a comprehensive collection of **Finite Element Analysis
   - Modal analysis with all 8 mounting holes constrained.  
   - Second analysis with only 4 corner holes constrained.  
 - **Results:** Comparison of mode shapes and natural frequencies.  
+
 ![frame_vibration](https://ams02pap001files.storage.live.com/y4m_D8gQC_V4gnvX7uF82SDSiTn_8xMF0ztDZVCRu2tqeT-aNjmB1v6p8tYjubcuMXYBQ74Nn1jDf7dVrYh7bBZEkS-F2GWKM65T5PFxDCwzVpwM8ORsuWQLRX6pNoppF1-nxZsbTOWSyRSQDenz4RrNpeDcRcf-6oIgA9XTQfLlP8-uIpWvUMmaXM79Oqm4LPXmfL4XcALqFJ0FLg2poVdTq5lRYvQIulNul98SsidsxA?encodeFailures=1&width=1201&height=919)
 
 - **Source:** ANSYS Mechanical Application Introductory Training Course (2015, ANSYS, Inc.)  
@@ -326,7 +352,8 @@ This repository presents a comprehensive collection of **Finite Element Analysis
     - 60°C at the mounting face.  
     - 90°C internal temperature.  
     - Convection at 20°C external surface.  
-- **Results:** Thermal expansion and stress comparison.  
+- **Results:** Thermal expansion and stress comparison. 
+ 
 ![pump_housing](https://ams02pap001files.storage.live.com/y4m1B_dc6qAPgCdljy5qZ5yHRm-IhmeSSYtcbNhYBv8rWi8lz1hUAT5WIRzGq-g-ijjfNZ9UKXhbrEn1CwszcJ92fQ_5HnYffVSsZvFoFQEt9k0d3YRWXbdvqouuCqkq1aXg76wLFRFyin0xs3AV11c5S63XrsgPVLAvExGw4NWgRcoIhnDofyazkUkEhYay1RkvT2DdCyOqeW0ZEtIx-1W043ESooIqLGpPBYPH3EDnxo?encodeFailures=1&width=1201&height=517)
 
 - **Source:** ANSYS Mechanical Application Introductory Training Course (2015, ANSYS, Inc.)  
@@ -340,6 +367,7 @@ This repository presents a comprehensive collection of **Finite Element Analysis
   - Step 3: Internal pressure applied.  
   - Step 4: Axial force applied.  
 - **Results:** Structural response under multi-step loading.  
+
 ![pipe_clamp](https://ams02pap001files.storage.live.com/y4mAPxjuVpCr58gznq5UMZuGWR9e63OgueR6VzYuLEw9mwUsXDFUSBbSjvnA2VFGLwhWR4Onr6RRnbyVXRN0AqN-GpWB8H5vVBLj1OqK4l6elfdO4Lgw_Ujfeqjpi8tn8725T77F2zVGQlD2zTnjbHemdw2lJgl2gKkVgAd0PkYV8fdDVhw3S9a77ZMtV8EymXPKpJCCAk13MBAUUtxm1j8TrMECoBHXm82q4j7aCMYLiQ?encodeFailures=1&width=1201&height=777)
 
 - **Source:** ANSYS Mechanical Application Introductory Training Course (2015, ANSYS, Inc.)  
